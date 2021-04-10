@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Головна</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+
+  <body>
+    <nav class="menu">
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <a href="#" class="logo">
+        <picture class="lazy logo_img">
+          <source data-srcset="img/logo.png" type="image/png" />
+          <img data-srcset="img/logo.png" alt="Site Logo" />
+        </picture>
+      </a>
+      <ul class="links">
+        <li class="links__item active"><a href="index.html">Головна</a></li>
+        <li class="links__item"><a href="about.html">Про нас</a></li>
+        <li class="links__item">
+          <div>
+            <a href="gallery.html" class="links__item_pad">Галерея </a>
+          </div>
+        </li>
+        <li class="links__item"><a href="pricing.html">Ціни</a></li>
+        <li class="links__item"><a href="404.html">Контакти</a></li>
+        <li class="links__item links__button">
+          <div class="links__btns">
+            <div class="act">
+              <svg
+                id="lense"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5z"
+                />
+              </svg>
+            </div>
+            <div class="links__search">
+              <form action="" class="links__form">
+                <div class="links__wrap">
+                  <input type="text" placeholder="Search..." />
+                  <a class="links__link_active" href="search.html">
+                    <svg
+                      class="links__svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                    >
+                      <path
+                        d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </form>
+            </div>
+            <div class="links__group">
+              <svg
+                class="menu-icon social-link"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M16.272 5.451c-.176-.45-.272-.939-.272-1.451 0-2.208 1.792-4 4-4s4 1.792 4 4-1.792 4-4 4c-1.339 0-2.525-.659-3.251-1.67l-7.131 3.751c.246.591.382 1.239.382 1.919 0 .681-.136 1.33-.384 1.922l7.131 3.751c.726-1.013 1.913-1.673 3.253-1.673 2.208 0 4 1.792 4 4s-1.792 4-4 4-4-1.792-4-4c0-.51.096-.999.27-1.447l-7.129-3.751c-.9 1.326-2.419 2.198-4.141 2.198-2.76 0-5-2.24-5-5s2.24-5 5-5c1.723 0 3.243.873 4.143 2.201l7.129-3.75zm3.728 11.549c1.656 0 3 1.344 3 3s-1.344 3-3 3-3-1.344-3-3 1.344-3 3-3zm-15-9c2.208 0 4 1.792 4 4s-1.792 4-4 4-4-1.792-4-4 1.792-4 4-4zm15-7c1.656 0 3 1.344 3 3s-1.344 3-3 3-3-1.344-3-3 1.344-3 3-3z"
+                />
+              </svg>
+              <ul class="links__social">
+                <li>
+                  <a href="#daa">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#czzc">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <header class="slides">
+      <div class="slides__container">
+        <div class="slides__item slide">
+          <div class="slide__title animation slide-to-right">
+            Розробка шкільних курсів
+          </div>
+          <div class="slide__desc animation slide-to-left">
+            Наша компанія займається розробкою та/або вдосконаленням курсів для
+            дітей, які навчаються в школах
+          </div>
+          <a
+            href="about.html"
+            class="main-btn slide__btn animation slide-to-top"
+          >
+            Дізнатися більше
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="services">
+      <div class="services__left animation slide-to-top">
+        <div class="img-wrap" style="max-width: 415px; height: 592px">
+          <picture class="lazy">
+            <source data-srcset="img/tablet.jpg" type="image/webp" />
+            <img data-srcset="img/tablet.jpg" alt="Tablet service" />
+          </picture>
+        </div>
+      </div>
+      <div class="services__right">
+        <div class="services__item service-ad animation slide-to-left">
+          <h3 class="services__title add-sub">Продивитися наші роботи</h3>
+          <a href="gallery.html" class="main-btn services__btn">Всі проєкти</a>
+        </div>
+        <div class="services__item animation slide-to-left">
+          <svg
+            class="services__img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6.176 1.322l2.844-1.322 4.041 7.89-2.724 1.341c-.538 1.259 2.159 6.289 3.297 6.372.09-.058 2.671-1.328 2.671-1.328l4.11 7.932s-2.764 1.354-2.854 1.396c-7.862 3.591-19.103-18.258-11.385-22.281zm1.929 1.274l-1.023.504c-5.294 2.762 4.177 21.185 9.648 18.686l.971-.474-2.271-4.383-1.026.5c-3.163 1.547-8.262-8.219-5.055-9.938l1.007-.497-2.251-4.398z"
+            />
+          </svg>
+          <h5 class="services__subtitle add-sub">
+            <a href="#">Знайдемо рішення</a>
+          </h5>
+          <p class="services__desc">
+            Потрібен новий курс? Ми вже маємо ідею на розробку!
+          </p>
+        </div>
+        <div class="services__item animation slide-to-left">
+          <svg
+            class="services__img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M17.902 12c1.142 0 2.066.925 2.066 2.066v3.867c0 1.141-.925 2.066-2.066 2.066h-1.902v-8h1.902zm-11.836 0c-1.141 0-2.066.925-2.066 2.066v3.867c0 1.142.925 2.067 2.066 2.067h1.934v-8h-1.934zm5.934-12c-7.081 0-12 5.717-12 12.951v3.049h2v-3.085c0-6.306 5.022-9.905 10-9.915 4.978.01 10 3.609 10 9.916v3.084h2v-3.049c0-7.234-4.919-12.951-12-12.951zm-1.002 23.029c0 .536.436.971.972.971h3.028v-2h-3.028c-.536 0-.972.493-.972 1.029zm11-5.029c.002 3.312-2.361 4.51-5.998 4.51v1.021c3.959 0 7-1.594 6.998-5.531h-1z"
+            />
+          </svg>
+          <h5 class="services__subtitle add-sub">
+            <a href="#">Телефонуйте нам</a>
+          </h5>
+          <p class="services__desc">Наші експерти допоможуть Вам з ідеєю.</p>
+        </div>
+        <div class="services__item animation slide-to-left">
+          <svg
+            class="services__img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M13.904 9c-3.514-3.984-.1-7.598-.1-7.598l-1.393-1.389 5.589-.013v5.607l-1.372-1.391c0 .001-3.581.706-2.724 4.784zm5.752 6.024l-.35.199v1.717l.35-.199v-1.717zm.844-.481l-.342.195v1.717l.342-.195v-1.717zm-3.407 1.941l-.349.199v1.713l.349-.195v-1.717zm1.979-1.127l-.343.195v1.717l.343-.195v-1.717zm.949-10.673v2.295l.855.489-6.859 3.698-8.86-5.138 6.374-3.654-1.5-1.406-6.864 3.97-3.167 5.533 2 1.106v5.445l12.25 6.978 9.75-5.551v-11.508l-3.979-2.257zm-16.083 3.004l7.897 4.54-1.193 2.091-7.871-4.605 1.167-2.026zm9.062 13.298l-9-5.126v-3.112l5.632 3.297 1.746 1.022 1.002-1.757.62-1.088v6.764zm9-3.7l-7 3.985v-8.361l7-3.773v8.149zm-4.323-1.135l-.343.195v1.717l.343-.195v-1.717zm.821-.467l-.344.196v1.717l.344-.196v-1.717z"
+            />
+          </svg>
+          <h5 class="services__subtitle add-sub">
+            <a href="#">Гнучкі курси</a>
+          </h5>
+          <p class="services__desc">Можемо запропонувати багато ідей.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2 class="title projects__title animation slide-to-right">
+        Минулі проєкти
+      </h2>
+      <p class="projects__desc animation slide-to-left">
+        В нашій галереї ви можете побачити наші роботи, створені майстрами своєї
+        справи.
+      </p>
+      <div class="projects__wrap">
+        <div class="projects__filter">Filter</div>
+        <ul class="projects__list">
+          <li>
+            <a
+              href="#"
+              data-filter="*"
+              class="projects__link projects__link_active"
+              >Все</a
+            >
+          </li>
+          <li>
+            <a href="#" data-filter=".mobile" class="projects__link"
+              >Мобільні курси</a
+            >
+          </li>
+          <li>
+            <a href="#" data-filter=".custom" class="projects__link"
+              >Для клієнтів</a
+            >
+          </li>
+          <li>
+            <a href="#" data-filter=".qa" class="projects__link">Тестування</a>
+          </li>
+          <li>
+            <a href="#" data-filter=".ux" class="projects__link">Дизайн</a>
+          </li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <div class="gallery__item animation slide-to-left mobile">
+          <picture class="lazy">
+            <source data-srcset="img/laptop.jpg" type="image/jpg" />
+            <img data-srcset="img/laptop.jpg" alt="Laptop" />
+          </picture>
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>FinStep</h5>
+            </div>
+            <div class="gallery__text">
+              Ми працюємо кожного дня для найкращих результатів.
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery__item animation slide-to-left mobile">
+          <picture class="lazy">
+            <source data-srcset="img/phone.jpg" type="image/jpg" />
+            <img data-srcset="img/phone.jpg" alt="Phone" />
+          </picture>
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>Mobile Finance</h5>
+            </div>
+            <div class="gallery__text">
+              Якщо в нас є ціль - ми вже пройшли половину шляху.
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery__item animation slide-to-left custom">
+          <picture class="lazy">
+            <source data-srcset="img/statistics.jpg" type="image/jpg" />
+            <img data-srcset="img/statistics.jpg" alt="Statistics" />
+          </picture>
+
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>Q-Manage</h5>
+            </div>
+            <div class="gallery__text">
+              Робота повинна приносити задоволення, а не жагу.
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery__item animation slide-to-right qa">
+          <picture class="lazy">
+            <source data-srcset="img/table_laptop.jpg" type="image/jpg" />
+            <img data-srcset="img/laptop-profile.jpg" alt="Table" />
+          </picture>
+
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>WeatherCast</h5>
+            </div>
+            <div class="gallery__text">
+              Людина стає розумнішою з кожною секундою, якщо вона здатна
+              мислити.
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery__item animation slide-to-right ux">
+          <picture class="lazy">
+            <source data-srcset="img/company.jpg" type="image/jpg" />
+            <img data-srcset="img/company.jpg" alt="Company" />
+          </picture>
+
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>Tekar</h5>
+            </div>
+            <div class="gallery__text">
+              Складна робота - велика відповідальність.
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery__item animation slide-to-right mobile">
+          <picture class="lazy">
+            <source data-srcset="img/phone-profile.jpg" type="image/jpg" />
+            <img data-srcset="img/phone-profile.jpg" alt="Phone profile" />
+          </picture>
+
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>MPlanner</h5>
+            </div>
+            <div class="gallery__text">Робота - роботою, а життя йде.</div>
+          </div>
+        </div>
+
+        <div class="gallery__item animation slide-to-left custom">
+          <picture class="lazy">
+            <source data-srcset="img/phone-message.jpg" type="image/jpg" />
+            <img data-srcset="img/phone-message.jpg" alt="Phone message" />
+          </picture>
+
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>ChildHelper</h5>
+            </div>
+            <div class="gallery__text">
+              Спитай, якщо зможеш. Почуй відповідь, якщо захочеш.
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery__item animation slide-to-left qa">
+          <picture class="lazy">
+            <source data-srcset="img/company2.jpg" type="image/jpg" />
+            <img data-srcset="img/company2.jpg" alt="Company 2" />
+          </picture>
+
+          <div class="gallery__desc">
+            <div class="gallery__title">
+              <a href="#">
+                <svg
+                  class="gallery__img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5zm-4.5 8h4v-4h1v4h4v1h-4v4h-1v-4h-4v-1z"
+                  />
+                </svg>
+              </a>
+              <h5>WiserCan</h5>
+            </div>
+            <div class="gallery__text">Праця - ще один вид творчості.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="experience__num">
+        <span class="increase-num" data-max-num="5">0</span>
+        <canvas id="canvas" class="experience__canvas"></canvas>
+      </div>
+      <div class="experience__desc animation slide-to-top">
+        <h2 class="experience__title">років досвіду</h2>
+        <p class="experience__text">
+          TarTen - команда дружніх та висококваліфікованих працівників.
+        </p>
+        <a href="about.html" class="main-btn black-and-white"> Проглянути </a>
+      </div>
+      <div class="experience__nums">
+        <div class="experience__app experience__app_border-bottom">
+          <span> <span class="increase-num" data-max-num="90">0</span></span>
+          <p>робіт</p>
+        </div>
+        <div class="experience__app">
+          <span class="increase-num" data-max-num="30"> 0</span>
+          <p>консультацій</p>
+        </div>
+        <div class="experience__app">
+          <span class="increase-num" data-max-num="12">0</span>
+          <p>премій</p>
+        </div>
+        <div class="experience__app experience__app_border-top">
+          <span class="increase-num" data-max-num="28">0</span>
+          <p>робітників</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="advans">
+      <div class="advans__left animation slide-to-right">
+        <h2 class="title advans__main-title">Отримай більше з нами</h2>
+        <ul class="advans__nums switch">
+          <li class="advans__num switch__elem advans__num_active">01</li>
+          <li class="advans__num switch__elem">02</li>
+          <li class="advans__num switch__elem">03</li>
+          <li class="advans__num switch__elem">04</li>
+        </ul>
+        <div class="advans__body switch-body">
+          <div
+            class="advans__text switch-el switch_active advans__text_active"
+            data-index="01"
+          >
+            <h4 class="advans__title">Безкоштовні курси</h4>
+            <p class="advans__desc">
+              При замовленні більше ніж 3-х курсів - четвертий буде йти в
+              подарунок, або Ви зможете подарувати купон на курс своїм знайомим.
+            </p>
+          </div>
+          <div class="advans__text switch-el" data-index="02">
+            <h4 class="advans__title">Спеціалісти</h4>
+            <p class="advans__desc">
+              Ми знайомі з багатьма спеціалістами, які займаються проведенням
+              курсів від 10 років. Допоможемо із співпрацею.
+            </p>
+          </div>
+          <div class="advans__text switch-el" data-index="03">
+            <h4 class="advans__title">Клієнт - головний</h4>
+            <p class="advans__desc">
+              Завжди схвалюємо Вашу критику та намагаємося зробити курс
+              максимально відповідним до Ваших вимог.
+            </p>
+          </div>
+          <div class="advans__text switch-el" data-index="04">
+            <h4 class="advans__title">Відсутність проблем</h4>
+            <p class="advans__desc">
+              Платформа для курсів кожного дня перевіряється спеціалістами та
+              вдосконалюється.
+            </p>
+          </div>
+        </div>
+        <a class="advans-btn main-btn black-and-white" href="about.html"
+          >Спробуйте</a
+        >
+      </div>
+      <div class="advans__right animation slide-to-top">
+        <div
+          class="img-wrap"
+          style="width: 235px; height: 435px; margin-right: 20px"
+        >
+          <picture class="lazy">
+            <source data-srcset="img/phone-service.jpg" type="image/webp" />
+            <img
+              data-srcset="img/phone-service.png"
+              alt="Phone service"
+              style="border-radius: 10px"
+            />
+          </picture>
+        </div>
+        <div class="img-wrap" style="width: 235px; height: 435px">
+          <picture class="lazy" style="border-radius: 10px">
+            <source data-srcset="img/phone-serve.jpg" type="image/png" />
+            <img
+              data-srcset="img/phone-serve.png"
+              alt="Phone serve"
+              style="border-radius: 10px"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h2 class="title reviews__title">Відгуки людей</h2>
+      <div class="reviews__row">
+        <div class="reviews__item animation slide-to-left" data-delay="0">
+          <a href="#" class="reviews__person">
+            <picture class="lazy">
+              <source data-srcset="img/client1.webp" type="image/webp" />
+              <img data-srcset="img/client1.webp" alt="Catherine Williams" />
+            </picture>
+            <div class="reviews__desc">
+              <h4 class="reviews__name">
+                Катерина Хромова
+                <span> Постійний клієнт </span>
+              </h4>
+            </div>
+          </a>
+          <p class="reviews__text">
+            TarTen запропонував мені безліч різних варіантів, з яких я змогла
+            обрати саме те оформлення курсу, яке і хотіла. Дякую!
+          </p>
+        </div>
+
+        <div class="reviews__item animation slide-to-left" data-delay="0.1s">
+          <a href="#" class="reviews__person">
+            <picture class="lazy">
+              <source data-srcset="img/client2.webp" type="image/webp" />
+              <img data-srcset="img/client2.webp" alt="Rupert Wood" />
+            </picture>
+            <div class="reviews__desc">
+              <h4 class="reviews__name">
+                Василь Морковкін
+                <span> Постійний клієнт </span>
+              </h4>
+            </div>
+          </a>
+          <p class="reviews__text">
+            Завдяки цій команді професіоналів я нарешті зміг створити свій
+            власний курс для навчання онлайн. Сподіваюсь, ми ще будемо
+            співпрацювати)
+          </p>
+        </div>
+
+        <div class="reviews__item animation slide-to-left" data-delay="0.2s">
+          <a href="#" class="reviews__person">
+            <picture class="lazy">
+              <source data-srcset="img/client3.jpg" type="image/jpg" />
+              <img data-srcset="img/client3.jpg" alt="Samantha Brown" />
+            </picture>
+            <div class="reviews__desc">
+              <h4 class="reviews__name">
+                Ганна Трутова
+                <span> Постійний клієнт </span>
+              </h4>
+            </div>
+          </a>
+          <p class="reviews__text">
+            Дана платформа спростила моє життя в мільйон разів! Оскільки мені не
+            потрібно було власноруч створювати онлайн-курси, дякую!!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <h2 class="title blog__main-title">Останні пости</h2>
+      <div class="blog__row">
+        <div class="blog__item animation slide-to-right" data-delay="0">
+          <div class="blog__img" style="max-width: 370px; height: 307px">
+            <picture class="lazy">
+              <source data-srcset="img/people.jpg" type="image/jpg" />
+              <img data-srcset="img/people.jpg" alt="People" />
+            </picture>
+            <div class="blog__task"><span>07/</span>04</div>
+          </div>
+
+          <h4 class="blog__title">Недоліки сучасних курсів</h4>
+
+          <p class="blog__pros">
+            Сьогодні курси може зробити кожна людина, скориставшись великою
+            кількістю платформ в Інтернеті.
+          </p>
+        </div>
+        <div class="blog__item animation slide-to-right" data-delay="0.1s">
+          <div class="blog__img" style="max-width: 370px; height: 307px">
+            <picture class="lazy">
+              <source data-srcset="img/office-work.jpg" type="image/jpg" />
+              <img data-srcset="img/office-work.jpg" alt="Office work" />
+            </picture>
+            <div class="blog__task"><span>07/</span>17</div>
+          </div>
+
+          <h4 class="blog__title">Розвиток нашої компанії</h4>
+          <p class="blog__pros">
+            Ми стартували 5 років тому, нас було небагато - 4 людей, але ми мали
+            бажання, тому ми зараз там де ми є.
+          </p>
+        </div>
+        <div class="blog__item animation slide-to-right" data-delay="0.2s">
+          <div class="blog__img" style="max-width: 370px; height: 307px">
+            <picture class="lazy">
+              <source data-srcset="img/functions.jpg" type="image/jpg" />
+              <img data-srcset="img/functions.jpg" alt="Functions" />
+            </picture>
+            <div class="blog__task"><span>07/</span>22</div>
+          </div>
+
+          <h4 class="blog__title">Нові функції</h4>
+          <p class="blog__pros">
+            Наша платформа має незліченну кількість різноманітних функцій, але
+            завжди чогось не вистачає.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions">
+      <div class="questions__row">
+        <div class="questions__block animation slide-to-right">
+          <a href="#" class="questions__logo"> </a>
+          <p class="questions__desc">
+            Наша компанія працює з 2016 року, за нашими плечима багато взлетів
+            та падінь, але ще більше досвіду. Тому можете задати нам будь-яке
+            питання.
+          </p>
+          <div class="questions__address">
+            <div class="questions__contact">
+              <h4 class="questions__subtitle">Адреса</h4>
+              <a href="#" class="questions__text">
+                м. Київ. Солом'янський р-н, буд. 221.
+              </a>
+            </div>
+            <div class="questions__contact">
+              <h4 class="questions__subtitle">Контакти</h4>
+              <p class="questions__text">
+                <a href="tel:#">+099 99-999-99</a>,
+                <a href="tel:#">+088 88-888-88</a>
+              </p>
+            </div>
+            <div class="questions__contact">
+              <h4 class="questions__subtitle">Пошта</h4>
+              <div class="questions__text">
+                <a href="mailto:#">tar@mail.org</a>,
+                <a href="mailto:#">ten@mail.org</a>
+              </div>
+            </div>
+          </div>
+          <div class="questions__social">
+            <div class="questions__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                />
+              </svg>
+            </div>
+            <div class="questions__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                />
+              </svg>
+            </div>
+            <div class="questions__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="questions__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="questions__block animation slide-to-right"
+          data-delay="0.1s"
+        >
+          <h2 class="title questions__main-title">Питання? Пишіть</h2>
+          <form action="" class="question__form">
+            <div class="questions__group">
+              <input
+                name="name"
+                type="text"
+                class="questions__input questions__elem"
+                placeholder="Ім'я"
+                required
+              />
+              <span class="questions__required">Дане поле - обов'язкове.</span>
+            </div>
+            <div class="questions__group">
+              <input
+                name="email"
+                type="email"
+                class="questions__input questions__elem"
+                placeholder="Пошта"
+                required
+              />
+              <span class="questions__required">Дане поле - обов'язкове.</span>
+            </div>
+            <div class="questions__group">
+              <textarea
+                name="area"
+                class="questions__area questions__elem"
+                placeholder="Повідомлення"
+              ></textarea>
+              <span class="questions__required">Дане поле - обов'язкове.</span>
+            </div>
+            <button class="questions__btn">Відправити</button>
+          </form>
+        </div>
+
+        <div
+          class="questions__block animation slide-to-right"
+          data-delay="0.2s"
+        >
+          <h2 class="title questions__main-title">Наші пропозиції</h2>
+          <ul class="questions__offer">
+            <li>
+              <a href="#" class="questions__link"
+                >Співпраця
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M24 22h-24l12-20z" />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="questions__link"
+                >Контакти
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M24 22h-24l12-20z" /></svg
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="questions__link"
+                >Швидкість
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M24 22h-24l12-20z" /></svg
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="questions__link"
+                >Динамічність
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M24 22h-24l12-20z" /></svg
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="questions__link"
+                >Дизайн
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M24 22h-24l12-20z" /></svg
+                ></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="animation slide-to-top">
+        &copy; 2021 TarTen. Всі права захищені.
+      </p>
+    </footer>
+
+    <div class="button-to-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"
+        />
+      </svg>
+    </div>
+    <script src="js/sort.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/advans.js"></script>
+    <script src="js/lazy-load.js"></script>
+    <script src="js/increase-num.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,361 @@
+header {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-header {
+  text-align: center;
+}
+.about-header__bg {
+  background: url(../img/about/bg-element.jpg);
+}
+
+.about-header__bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-animation: bgMove 15s linear infinite alternate;
+  animation: bgMove 15s linear infinite alternate;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.about-header__title {
+  font-size: 4rem;
+  padding-top: calc(2vw + 8vh + 140px);
+  letter-spacing: 1px;
+}
+
+.about-header__crumbs {
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+
+.about-header__crumbs span {
+  color: black;
+}
+
+.about-header__crumbs span:nth-of-type(2) {
+  color: #8d8d8d;
+}
+
+.about-header__crumbs span:first-of-type {
+  font-size: 1.5rem;
+  display: inline-block;
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+@-webkit-keyframes bgMove {
+  0% {
+    -webkit-transform: scale(1.2) translate(0, 0);
+    transform: scale(1.2) translate(0, 0);
+  }
+  100% {
+    -webkit-transform: scale(1.2) translate(30px, 30px);
+    transform: scale(1.2) translate(30px, 30px);
+  }
+}
+
+@keyframes bgMove {
+  0% {
+    -webkit-transform: scale(1.2) translate(0, 0);
+    transform: scale(1.2) translate(0, 0);
+  }
+  100% {
+    -webkit-transform: scale(1.2) translate(30px, 30px);
+    transform: scale(1.2) translate(30px, 30px);
+  }
+}
+
+.cards {
+  margin: 5vw 0;
+}
+
+.cards__main-title {
+  font-size: 2.2rem;
+  font-weight: normal;
+  text-align: center;
+  margin: calc(1vw + 20px) 0 calc(3vw + 20px) 0;
+}
+
+.cards__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.cards__white {
+  background: #fff;
+  color: #000;
+}
+
+.cards__black {
+  background: #1b1929;
+  color: #fff;
+}
+
+.cards__card {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 0 #d1d1d1;
+  box-shadow: 0 0 10px 0 #d1d1d1;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards__text {
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0 30px 0;
+  margin-bottom: 30px;
+  position: relative;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.cards__offer {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.cards__title {
+  font-size: 2.5rem;
+  margin: 10px 0 7px;
+  font-weight: normal;
+}
+
+.cards__dop {
+  letter-spacing: 2px;
+}
+
+.cards__list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards__item {
+  font-size: 1.05rem;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.cards__item:before {
+  content: "\2713";
+  position: absolute;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: -20px;
+  font-weight: 900;
+  color: #7a70ef;
+}
+
+.cards__item_grey:before,
+.cards__item_grey {
+  color: #888888;
+}
+
+.cards__btn {
+  display: block;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 60px;
+  background: rgb(235, 235, 235);
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.02rem;
+  margin-top: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.cards__btn_black {
+  background: #494c51;
+  color: #fff;
+}
+
+.cards__btn:hover,
+.cards__btn_active {
+  background: #7a70ef;
+  color: #fff;
+}
+
+.cards__label {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: #7a70ef;
+  padding: 5px 10px;
+  border-radius: 4px;
+  right: 15px;
+  top: 15px;
+  font-size: 0.9rem;
+}
+
+.cards__bg-text {
+  position: absolute;
+  color: #222030;
+  font-size: 7rem;
+  text-transform: uppercase;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1250px) {
+  header {
+    height: 350px;
+  }
+  .about-header__title {
+    padding: calc(12vw + 30px) 0 0 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 200px;
+  }
+  .about-header__title {
+    font-size: 2.5rem;
+    padding-top: 100px;
+  }
+  .about-header__crumbs {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cards__text {
+    padding: 30px 0 20px 0;
+  }
+  .cards__item {
+    margin: 10px 20px;
+  }
+  .cards__btn {
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+.switch_active {
+  z-index: 99;
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media screen and (max-width: 1080px) {
+  .slide__title {
+    margin-top: 20vh;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slide__desc {
+    width: 90%;
+  }
+  .slides__switch {
+    top: calc(90%);
+    left: calc(50% - 60px);
+  }
+  .slides__switch:nth-of-type(2) {
+    top: calc(90%);
+    left: calc(50% - 17.5px);
+  }
+  .slides__switch:nth-of-type(3) {
+    top: calc(90%);
+    left: calc(50% + 25px);
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .slide__title {
+    font-size: 3rem;
+    margin-top: 150px;
+  }
+
+  .slides,
+  .slide {
+    height: 75vh;
+  }
+  .slides__switch {
+    display: none;
+  }
+
+  html {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .slide__title {
+    margin: 30px 0 0 0;
+    font-size: 3rem;
+  }
+  .slide__desc {
+    margin: 30px auto;
+  }
+  .slides__switch {
+    display: none;
+  }
+}
+
+@media (max-width: 351px) {
+  .slides,
+  .slide {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .slide__title {
+    margin-top: 200px;
+  }
+  .slides,
+  .slide {
+    height: 80vh;
+    position: relative;
+  }
+}
+
+@media screen and (min-height: 930px) {
+  .slides,
+  .slide {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-height: 1250px) {
+  .slides,
+  .slide {
+    height: 50vh;
+  }
+}
